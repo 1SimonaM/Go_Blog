@@ -59,8 +59,11 @@
           display: inline-block;
           background-color: black;
           color: white;  
-           width: 100px;
+           width: 130px;
            height: 40px; 
+           font-size: 25px;
+           text-align: center;
+           padding-block: 5px;
          }
 
 
