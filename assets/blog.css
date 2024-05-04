@@ -1,89 +1,84 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-    body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
-    }
-   
+.header {
+  height: 100px;
+  border-bottom: 5px solid black;
+  background-color: white;
+  padding-inline: 40px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  /* to create space between the 2 border lines ex.. border-bottom: 5px solid black; on .header and 
+  .section  border-top: 5px solid black; we add margin bottom 5px on .hearder*/
+}
 
-    .header {
-        height: 100px;
-        border-bottom: 10px solid black;
-        background-color: white;
-        padding-inline: 40px;
-        margin-top: 50px;
-        
-        }
+/* we use the grid  */
+.header .container {
+  display: grid;
+  /* the grid has 3 elements inside the box 1. my frist blog, 2. back arrow and sun icon */
+  /* the fr its the fraction of the tot streen size. */
+  grid-template-columns: 20fr 1fr 0.9fr;
+ 
+  
+}
 
-        /* we use the grid  */
-        .header .container {
-            display: grid;
-            grid-template-columns: 5fr 1fr .9fr;
-        justify-content: space-between;
+.section {
+  background-color: white;
+  margin-top: 2px;
+  padding-inline: 30px;
+  border-top: 5px solid black;
+  /* to space between the .section and the box called section.container below we add padding-block on .section*/
+    padding-block: 10px;
+}
 
-        }
+/* this is saying we are being specific with the contair that is a direct child of section on blog.html ln 13*/
+section .container {
+  border: 4px solid black;
+  /* for the container add margin  */
+  margin-block: 10px;
+  height: 200px;
+  padding-inline: 10px;
+}
 
+/* border color for the orizontal ln under the h2 elements */
+hr {
+  border-color: black;
+}
 
+.content {
+  height: 130px;
+  padding: 10px 0px 0px 10px;
+}
 
+.postedby {
+  margin-top: 2px;
+}
 
-        .section {
-        background-color: white;  
-        margin-top: 2px;
-        margin-inline: 20px;
-    
-            }
-    
-         /* this is saying we are being specific with the contair that is a direct child of section on blog.html ln 13*/
-        section .container {
-        border: 4px solid black;
-         /* for the container add margin  */
-         margin-block: 10px;
-         height: 200px;
-         padding-inline: 10px;
-          }  
+.backbutton {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  padding-block: 5px;
+  margin: 0px 0px 0px 600px;
+}
 
-          /* border color for the orizontal ln under the h2 elements */
-          hr {
-          border-color: black;  
+/* sun */
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: ;
 
-          }
-          
-          .content {
-           height: 130px; 
-           padding: 10px 0px 0px 10px;
-
-          }
-
-          .postedby {
-           margin-top: 2px; 
-
-          }
-
-         .backbutton {
-          display: inline-block;
-          background-color: black;
-          color: white;  
-           width: 130px;
-           height: 40px; 
-           font-size: 25px;
-           text-align: center;
-           padding-block: 5px;
-           margin: 0px 0px 0px 600px;
-        
-
-         }
-
-         .toggle {
-          display: flex;  
-          justify-content: center;
-          align-items: center;  
-          margin-left: 0px;
-
-         }
-
-
-
+}
