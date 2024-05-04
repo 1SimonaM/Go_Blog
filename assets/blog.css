@@ -20,23 +20,37 @@ body {
   .section  border-top: 5px solid black; we add margin bottom 5px on .hearder*/
 }
 
-/* we use the grid  */
+/* we use the grid to fix or arrange arrange the the element inside the containe ex. back button and the toogle sun */
 .header .container {
   display: grid;
   /* the grid has 3 elements inside the box 1. my frist blog, 2. back arrow and sun icon */
   /* the fr its the fraction of the tot streen size. */
   grid-template-columns: 20fr 1fr 0.9fr;
- 
-  
+   
 }
 
+/* sun */
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
 .section {
   background-color: white;
   margin-top: 2px;
   padding-inline: 30px;
+  /* border top section */
   border-top: 5px solid black;
+  /* bor bottom section */
+  border-bottom: 5px solid black;
   /* to space between the .section and the box called section.container below we add padding-block on .section*/
     padding-block: 10px;
+    /* now we can add border lines at the bottom  */
+/*add space between the section and the footer bordelines  */
+margin-bottom: 5px;
+
 }
 
 /* this is saying we are being specific with the contair that is a direct child of section on blog.html ln 13*/
@@ -74,11 +88,32 @@ hr {
   margin: 0px 0px 0px 600px;
 }
 
-/* sun */
-.toggle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: ;
+.footer {
+    /* top line */
+   border-top: 5px solid black;
 
+}
+
+.footer .container {
+padding-inline: 50px;
+
+}
+
+.footer h4 {
+margin-left: 45%;
+
+}
+
+
+/* margin to style or lower ul elements*/
+.footer ul {
+margin-top: 60px;
+
+
+}
+
+.footer li {
+    /* /removed . on list of each li */
+    list-style: none;
+    
 }
