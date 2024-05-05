@@ -1,18 +1,34 @@
-# FSF-PT-EAST-APRIL-040824
+## Personal Blog
 
-Welcome to the Full Stack Web Development Bootcamp!
+Create two web-pages from scratch.  
 
-Instructor Name: Junghoon Yoon  
-Instructional Staff: Jessica Song, Paul Keldsen, Jay Cruz, Quentin Jones
+## Purpose
 
-## Getting started
+- Allow users to input and view blog post;
+- Dynamically rendering blog posts;
+- Implementing a light/dark mode toggle;
+- Building a content form;
 
-Before pulling down, make sure to work through your _prework_ and read through the **00-Flight-Manual** either by _git cloning_ (download) the content or by clicking the **00-Flight-Manual** via Gitlab.
 
-Confirm that you received your invite to Slack and be sure to download the App version of Slack on your computer! (Instructions in the **00-Flight-Manual**).
+## Objective
 
-## Folder Structures
-1. 00-Flight-Manual (good know-hows for class)
-2. 01-HTML-Git-CSS
+- Explore the Document Object Model's power;
+- Set the stage for more advanced tasks.
 
-Misc:  Class-Slides (Where you will find the week's slides)
+
+## Contributin
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+https://github.com/juhuyoon
+http;//github.com/jints.codhuv
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
