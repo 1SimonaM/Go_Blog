@@ -62,7 +62,6 @@ section .container {
   padding-inline: 10px;
 }
 
-/* border color for the orizontal ln under the h2 elements */
 hr {
   border-color: black;
 }
@@ -126,33 +125,29 @@ margin-top: 60px;
    margin-top: 50px;
    margin-bottom: 5px;
    color: #bebebe;
+   border-bottom: 5px solid #bebebe;
  }
  
  .headerDark .container {
 display: grid;
 grid-template-columns: 20fr 1fr 0.9fr;
 
-
-
-
  }
 
 
-
-
  .sectionDark {
-   background-color: #bebebe;
+   background-color: #243447;
    margin-top: 2px;
    padding-inline: 30px;
-   border-top: 5px solid black;
-   border-bottom: 5px solid black;
+   border-top: 5px solid #bebebe;
+   border-bottom: 5px solid #bebebe;
    padding-block: 10px;
    margin-bottom: 5px;
  
  }
  
  .sectionDark .container {
-   border: 4px solid #243447;
+   border: 4px solid #bebebe;
    /* for the container add margin  */
    margin-block: 10px;
    height: 200px;
@@ -177,4 +172,34 @@ grid-template-columns: 20fr 1fr 0.9fr;
   color: #bebebe;
 }
 
+
+.footerDark{
+  /* top line */
+ border-top: 5px solid #bebebe;
+
+}
+
+.footerDark .container {
+padding-inline: 50px;
+
+}
+
+.footerDark h4 {
+margin-left: 45%;
+color: #bebebe;
+}
+
+
+/* margin to style or lower ul elements*/
+.footerDark ul {
+margin-top: 60px;
+
+
+}
+
+.footerDark li {
+  /* /removed . on list of each li */
+  list-style: none;
+  color: #bebebe;
+}
 
