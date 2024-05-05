@@ -7,20 +7,28 @@
     <title>myBlogApp</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="./assets/form.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet"/>
 </head>
 
 <body>
+    <!-- index -->
     <header class="header">
-        <h1></h1>
+        <span class="toggle">
+            <i class="fa-solid fa-sun" style="color: #f9de2f; font-size: 25px;">
+            </i>
+        </span>
         
     </header>
     <main>
         <article>
             <section class="section">
+                
+               
                 <!-- We have 1 div called class "<div class="Container">" that contains 2 div inside.
         1' div contains my Firs Blog 
      2' div contain whats on your mind and below)  -->
                 <div class="container">
+                    
                     <div class="leftside">
                         <!-- .circle on css -->
                         <div class="circle">
@@ -38,7 +46,7 @@ where you collect the form data-->
                             <!-- to create the label username -->
 
                             <label for="Username">Username</label>
-                             <!-- with br we brake into a new line -->
+                            <!-- with br we brake into a new line -->
                             <br>
                             <!--create rectangular box -->
                             <input type="text" id="username">
@@ -46,7 +54,7 @@ where you collect the form data-->
                             <!-- to create the label for title -->
                             <label for="title">Title</label>
                             <br>
-                           <!--create rectangular box -->
+                            <!--create rectangular box -->
                             <input type="text" id="title">
                             <br>
                             <!-- to create the label for content -->
@@ -54,7 +62,7 @@ where you collect the form data-->
 
                             <!--create rectangular for content box for textarea-->
                             <textarea name="content" id="content" cols="50" rows="5"></textarea>
-                           <br>
+                            <br>
                             <!-- Submit botton -->
                             <input type="submit" value="Submit" class="submit">
                         </form>
@@ -64,6 +72,9 @@ where you collect the form data-->
             </section>
         </article>
     </main>
+    <script src="./assets/logic.js">
+    
+    </script>
 </body>
 
 </html>

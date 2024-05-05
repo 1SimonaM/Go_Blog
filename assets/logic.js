@@ -1,6 +1,7 @@
 // We selected the 3 el that we need which are the toggleButton, header and section on html
 const toggleButton = document.querySelector('.toggle');
 let bodyElement = document.body;
+// this header is for the myBlogApp on html
 const header = document.querySelector('.header');
 const section = document.querySelector('.section');
 
@@ -31,6 +32,40 @@ toggleButton.addEventListener("click", function () {
   }
 }); 
 
+// this header is for the index html
+const headerIndex = document.querySelector('.header');
+const sectionIndex = document.querySelector('.section');
+const toggleButtonIndex = document.querySelector('.toggle');
+const formElement = document.querySelector('.form');
+const h2Element = document.querySelector('.h2');
 
+let modeIndex = 'light';
+let spanIndex = document.querySelector('.toggle');
 
+toggleButtonIndex.addEventListener("click", function (){
+
+  let newContent =
+  '<img src="./assets/image/moon.png" width ="25px" height ="25px">';
+
+  if (modeIndex === "light"){
+    modeIndex = "dark";
+    spanIndex.innerHTML = newContent;
+    bodyElement.setAttribute('style', 'background-color: #243447');
+    headerIndex.setAttribute('class', 'headerNight');
+    sectionIndex.setAttribute('class', 'sectionNight');
+    formElement.setAttribute('class', 'formNight');
+    h2Element.setAttribute('class', 'h2Night');
+
+  } else {
+    spanIndex.innerHTML = initialContent;
+    modeIndex = "light";
+    bodyElement.setAttribute('style', 'background-color: white');
+    headerIndex.setAttribute('class', 'header');
+    sectionIndex.setAttribute('class', 'section');
+    formElement.setAttribute('class', 'form');
+    h2Element.setAttribute('class', 'h2');
+
+  }
+}
+)
 

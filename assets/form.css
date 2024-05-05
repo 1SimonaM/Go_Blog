@@ -26,6 +26,38 @@ margin-top: 10px;
 width: 100%;
 border: 1px solid;
 border-radius: 5px;
+
 }
 
+/* .night mode */
+
+.formNight label {
+color: #bebebe;    
+font-size: 23px;   
+} 
+
+.formNight input {    
+width: 100%;
+height: 50px;   
+margin-top: 10px; 
+margin-bottom: 10px;
+border: 1px solid #bebebe;
+border-radius: 5px;
+background-color: #bebebe;
+}
+
+.formNight .submit {
+height: 50px;
+background-color: black;  
+color: white;
+font-size: 20px;  
+}  
+
+.formNight textarea {
+margin-top: 10px;
+width: 100%;
+border: 1px solid #bebebe;
+border-radius: 5px;
+background-color: #bebebe;
+}
 
