@@ -2,11 +2,11 @@
 const toggleButton = document.querySelector('.toggle');
 let bodyElement = document.body;
 // this header is for the myBlogApp on html
-const header = document.querySelector('.header');
-const section = document.querySelector('.section');
+const header = document.querySelector('.myBlogAppHeader ');
+const section = document.querySelector('.myBlogAppSection');
 
 let footer = document.querySelector('footer');
-let spanElement = document.querySelector('.toggle');
+let spanElement = document.querySelector('.myBlogAppToggle');
 let initialContent = spanElement.innerHTML;
 let mode = "light";
 
