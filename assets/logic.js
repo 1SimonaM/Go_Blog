@@ -1,5 +1,5 @@
 // We selected the 3 el that we need which are the toggleButton, header and section on html
-const toggleButton = document.querySelector('.toggle');
+const toggleButton = document.querySelector('.myBlogAppToggle');
 let bodyElement = document.body;
 // this header is for the myBlogApp on html
 const header = document.querySelector('.myBlogAppHeader ');
@@ -26,8 +26,8 @@ toggleButton.addEventListener("click", function () {
     mode = "light";
     bodyElement.setAttribute('style', 'background-color: white');
   
-    header.setAttribute('class', 'header');
-    section.setAttribute('class', 'section')
+    header.setAttribute('class', 'myBlogAppHeader');
+    section.setAttribute('class', 'myBlogAppSection')
     footer.setAttribute('class', 'footer')
   }
 }); 
