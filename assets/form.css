@@ -5,6 +5,7 @@ label {
 font-size: 23px;   
 } 
 
+/* this the input of user name and title boxes */
 input {
 width: 100%;
 height: 50px;   
@@ -12,6 +13,8 @@ margin-top: 10px;
 margin-bottom: 10px;
 border: 1px solid;
 border-radius: 5px;
+font-size: 20px;
+padding-inline: 10px;
 }
 
 .submit {
@@ -21,12 +24,17 @@ color: white;
 font-size: 20px;  
 }  
 
+/* This the Content text area under username and title boxes*/
 textarea {
 margin-top: 10px;
 width: 100%;
 border: 1px solid;
 border-radius: 5px;
-
+font-size: 20px;
+/* gives a tab space */
+padding-inline: 10px;
+/* gives a space from the box above and below so that the words looks center. */
+padding-block: 10px;
 }
 
 /* .night mode */
@@ -44,6 +52,8 @@ margin-bottom: 10px;
 border: 1px solid #bebebe;
 border-radius: 5px;
 background-color: #bebebe;
+font-size: 20px;
+padding-inline: 10px
 }
 
 .formNight .submit {
