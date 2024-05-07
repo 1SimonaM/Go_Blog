@@ -17,6 +17,8 @@ Created two web-pages from scratch:
 - Explore the Document Object Model's power;
 - Set the stage for more advanced tasks.
 
+## Screenshot
+https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/Screenshot%202024-05-07%20at%209.55.56%E2%80%AFAM%20(2).png
 
 ## Contributing
 
