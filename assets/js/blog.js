@@ -37,38 +37,63 @@ toggleButton.addEventListener("click", function () {
 
 // Display the submitted form data
 document.addEventListener('DOMContentLoaded', function() {
-const formDataArr = JSON.parse(localStorage.getItem('formDataArr')) || [];
+const formDataArray = JSON.parse(localStorage.getItem('formDataArray')) || [];
 const myBlogAppSection = document.querySelector('.myBlogAppSection');
 
-console.log('This is the form data', formDataArr);
+console.log('This is the form data', formDataArray);
 
-if (formDataArr.length > 0) {
-formDataArr.foreach(function(formData, index){
-myBlogAppSection.innerHTML += `<div class="container">
-<div class="contentbox">
-    <h2>${formData.title}</h2>
-    <hr>
-    <p class="content" id="content1">
-  ${formData.message}
-    </p>
+if (formDataArray.length > 0) { 
+for(let items of formDataArray){
 
-    <span class="postedby">Posted by: ${formData.username}</span>
-</div>
-</div>`
+    myBlogAppSection.innerHTML += `<div class="container">
+    <div class="contentbox">
+        <h2>${formDataArray.title}</h2>
+        <hr>
+        <p class="content" id="content1">
+      ${formDataArray.content}
+        </p>
+    
+        <span class="postedby">Posted by: ${formDataArray.username}</span>
+    </div>
+    </div>`
+     
+  }
 
-} 
-)
 } else {
   myBlogAppSection.innerHTML += `<div class="container">
-<div class="contentbox">
-    <h2>Blog Title</h2>
-    <hr>
-    <p class="content" id="content1">
-  content
-    </p>
+  <div class="contentbox">
+      <h2>Blog Title</h2>
+      <hr>
+      <p class="content" id="content1">
+          Here is my content
+      </p>
 
-    <span class="postedby">Posted by: SimonaM</span>
+      <span class="postedby">Posted by: 1Simonam</span>
+  </div>
 </div>
+<div class="container">
+  <div class="contentbox">
+      <h2>Title 2</h2>
+      <hr>
+      <p class="content" id="content2">Content 2</p>
+      <span class="postedby">Posted by: 1Simonam</span>
+  </div>
+</div>
+<div class="container">
+  <div class="contentbox">
+      <h2>Title 3</h2>
+      <hr>
+      <p class="content" id="content3">Content 3</p>
+      <span class="postedby">Posted by: 1Simonam</span>
+  </div>
+</div>
+<div class="container">
+  <div class="contentbox">
+      <h2>Here is The Title</h2>
+      <hr>
+      <p class="content" id="content4">Here is the content</p>
+      <span class="postedby">Posted by: 1Simonam</span>
+  </div>
 </div>`
 }
 })

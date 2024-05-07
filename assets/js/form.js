@@ -23,20 +23,23 @@ toggleButtonIndex.addEventListener("click", function (){
 submitBtn.addEventListener('click', function(e){
   e.preventDefault();
   const formData = new FormData(formElement);
-  let formDataEntries = formData.entries();
+  let formEntries = [...formData.entries()];
   const formValues = {};
   // Convert formData to JSON object
-  for(let [key, value] of formDataEntries){
+  for(let [key, value] of formEntries){
    formValues[key] = value; 
+   console.log('formEntries', formValues)
+  
   }
   // Retrive existing form data array from local storage
   let formDataArray = JSON.parse(localStorage.getItem('formDataArray')) || [];
   // Add new form data to the array
   formDataArray.push(formValues);
+  console.log('formDataArray', formDataArray);
   // Store updated form data array in local storage
   localStorage.setItem('formDataArray', JSON.stringify(formDataArray));
   // Reidirect to blog.html
-  window.location.href= 'blog.html';
+  window.location.href= 'blog.html'; 
   
 
 } 
