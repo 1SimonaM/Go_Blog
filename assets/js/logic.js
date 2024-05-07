@@ -15,7 +15,7 @@ let spanElement2= document.querySelector('.toggle');
 toggleButtonIndex.addEventListener("click", function (){
 
   let newContent =
-  '<img src="./assets/image/moon.png" width ="25px" height ="25px">';
+  '<img src="./assets/images/moon.png" width ="25px" height ="25px">';
 
   if (modeIndex === "light"){
     modeIndex = "dark";
