@@ -23,7 +23,7 @@ body {
 /* we use the grid to fix or arrange arrange the the element inside the containe ex. back button and the toogle sun */
 .myBlogAppHeader .container {
   display: grid;
-  /* the grid has 3 elements inside the box 1. my frist blog, 2. back arrow and sun icon */
+  /* the grid has 3 elements inside the box 1. my first blog, 2. back arrow and sun icon */
   /* the fr its the fraction of the tot streen size. */
   grid-template-columns: 20fr 1fr 0.9fr;
    

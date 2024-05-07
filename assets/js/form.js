@@ -1,6 +1,7 @@
 
 const formElement = document.querySelector('.form');
 const toggleButton = document.querySelector('.toggle');
+const submitBtn = document.querySelector('.submit'); 
 
 let mode = 'light';
 
@@ -19,7 +20,7 @@ toggleButtonIndex.addEventListener("click", function (){
 }
 )
 
-formElement.addEventListener('submit', function(e){
+submitBtn.addEventListener('click', function(e){
   e.preventDefault();
   const formData = new FormData(formElement);
   let formDataEntries = formData.entries();
