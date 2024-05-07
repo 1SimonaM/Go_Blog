@@ -43,17 +43,17 @@ const myBlogAppSection = document.querySelector('.myBlogAppSection');
 console.log('This is the form data', formDataArray);
 
 if (formDataArray.length > 0) { 
-for(let items of formDataArray){
+for(let item of formDataArray){
 
     myBlogAppSection.innerHTML += `<div class="container">
     <div class="contentbox">
-        <h2>${formDataArray.title}</h2>
+        <h2>${item.title}</h2>
         <hr>
         <p class="content" id="content1">
-      ${formDataArray.content}
+      ${item.content}
         </p>
     
-        <span class="postedby">Posted by: ${formDataArray.username}</span>
+        <span class="postedby">Posted by: ${item.username}</span>
     </div>
     </div>`
      
