@@ -1,6 +1,8 @@
 ## Personal Blog
 
-Create two web-pages from scratch.  
+Created two web-pages from scratch: 
+- Index.html;
+- Blog.html;
 
 ## Purpose
 
@@ -16,7 +18,7 @@ Create two web-pages from scratch.
 - Set the stage for more advanced tasks.
 
 
-## Contributin
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
@@ -24,7 +26,7 @@ to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
 https://github.com/juhuyoon
-http;//github.com/jints.codhuv
+
 
 
 
