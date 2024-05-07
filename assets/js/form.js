@@ -48,12 +48,12 @@ submitBtn.addEventListener('click', function(e){
    console.log('formDataArray', formDataArray);
    // Store updated form data array in local storage
    localStorage.setItem('formDataArray', JSON.stringify(formDataArray));
-   // Reidirect to blog.html
-   window.location.href= 'blog.html'; 
-
+   
      }
-
+     
   })
+  // Redirect to blog.html
+   window.location.href= 'blog.html'; 
 } 
 )
 

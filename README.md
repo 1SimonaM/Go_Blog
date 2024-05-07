@@ -4,6 +4,7 @@ Created two web-pages from scratch:
 - Index.html;
 - Blog.html;
 
+
 ## Purpose
 
 - Allow users to input and view blog post;
@@ -17,7 +18,8 @@ Created two web-pages from scratch:
 - Explore the Document Object Model's power;
 - Set the stage for more advanced tasks.
 
-## Screenshot
+
+## Screenshots 
 
 https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/Screenshot%202024-05-07%20at%209.55.56%E2%80%AFAM%20(2).png
 
@@ -30,6 +32,12 @@ https://github.com/1SimonaM/Go_Blog/blob/main/assets/images/Screenshot%202024-05
 https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/moon.png
 
 
+## Links: 
+
+https://1simonam.github.io/Go_Blog/
+
+https://github.com/1SimonaM/Go_Blog
+
 
 ## Contributing
 
@@ -39,8 +47,6 @@ to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
 https://github.com/juhuyoon
-
-
 
 
 ## License
