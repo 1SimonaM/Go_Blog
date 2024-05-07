@@ -25,6 +25,8 @@ https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/Screenshot%202024-05-
 
 https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/Screenshot%202024-05-07%20at%2011.53.05%E2%80%AFAM.png
 
+https://github.com/1SimonaM/Go_Blog/blob/main/assets/images/Screenshot%202024-05-07%20at%2012.53.26%E2%80%AFPM.png
+
 https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/moon.png
 
 
