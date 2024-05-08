@@ -20,7 +20,7 @@ toggleButtonIndex.addEventListener("click", function (){
   if (modeIndex === "light"){
     modeIndex = "dark";
     spanElement2.innerHTML = newContent;
-    bodyElementIndex.setAttribute('style', 'background-color: #243447');
+    bodyElementIndex.setAttribute('style', 'background-color: whitesmoke');
     headerIndex.setAttribute('class', 'headerNight');
     sectionIndex.setAttribute('class', 'sectionNight');
     h2Element.setAttribute('class', 'h2Night');
@@ -29,7 +29,7 @@ toggleButtonIndex.addEventListener("click", function (){
   } else {
     spanElement2.innerHTML = initialContentIndex;
     modeIndex = "light";
-    bodyElementIndex.setAttribute('style', 'background-color: white');
+    bodyElementIndex.setAttribute('style', 'background-color: whitesmoke');
     headerIndex.setAttribute('class', 'header');
     sectionIndex.setAttribute('class', 'section');
     h2Element.setAttribute('class', 'h2');
