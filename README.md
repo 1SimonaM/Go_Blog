@@ -21,13 +21,13 @@ Created two web-pages from scratch:
 
 ## Screenshots 
 
-https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/Screenshot%202024-05-07%20at%209.55.56%E2%80%AFAM%20(2).png
+https://github.com/1SimonaM/Go_Blog/blob/main/assets/images/Front-page.png
 
-https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/Screenshot%202024-05-07%20at%2011.53.18%E2%80%AFAM.png
+https://github.com/1SimonaM/Go_Blog/blob/main/assets/images/BlogPg%20Scrrenshot.png
 
-https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/Screenshot%202024-05-07%20at%2011.53.05%E2%80%AFAM.png
+https://github.com/1SimonaM/Go_Blog/blob/main/assets/images/Blog%20pg%202%20Screenshot%20.png
 
-https://github.com/1SimonaM/Go_Blog/blob/main/assets/images/Screenshot%202024-05-07%20at%2012.53.26%E2%80%AFPM.png
+https://github.com/1SimonaM/Go_Blog/blob/main/assets/images/Day-Night.png
 
 https://github.com/1SimonaM/Go_Blog/blob/main/assets/image/moon.png
 
